@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+<style>
+	form
+	{
+		background-color: darkgray;
+		padding: 300px;
+		height: 100px;
+
+	}
+</style>
+</head>
+<body>
+
+	<form>
+		<fieldset>
+			<legend>Log In</legend>
+			<table>
+				<tr>
+					<td><label>Username</label></td>
+					<td>
+						<input type="text" name="username"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password</label>
+					</td>
+					<td>
+						<input type="Password" name="">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit"/>
+						<input type="reset"/>
+
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<center>
+		<h1>
+			<a href="{% url 'hypertext' %}">click for captain</a>
+		</h1>
+	</center>
+
+</body>
+</html>

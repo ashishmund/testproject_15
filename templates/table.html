@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1><u>Table</u></h1>
+	<style>
+		thead
+		{
+			color: red;
+			background: white
+			
+		}
+		tbody{
+			color: blue;
+			
+			background-color: rgb(83, 179, 179);
+
+		}
+		h1{
+			color: green;
+
+		}
+
+	</style>
+
+</head>
+<body>
+	<h2>New table test</h2>
+	<table border='1px' cellpadding="15">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Ph no</th>
+				<th>Mail</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>101</td>
+				<td>Ashish</td>
+				<td>019837478</td>
+				<td>aahd@gmail.com</td>
+			</tr>
+			<tr>
+				<td>102</td>
+				<td>Sekher</td>
+				<td>037252</td>
+				<td>sekh@gmail.com</td>
+			</tr><tr>
+				<td>103</td>
+				<td>Arun</td>
+				<td>019837355</td>
+				<td>arun@gmail.com</td>
+			</tr><tr>
+				<td>104</td>
+				<td>asb</td>
+				<td>01983432</td>
+				<td>aahd@gmail.com</td>
+			</tr><tr>
+				<td>105</td>
+				<td>Jack</td>
+				<td>00729388299</td>
+				<td>jack@gmail.com</td>
+			</tr>
+	</table>
+	<center>
+		<h3>
+			<button><a href="{% url 'form' %}">click to visit form </a></button>
+		
+		</h3>
+	</center>
+	
+</body>
+</html>
